@@ -13,5 +13,5 @@ Code written using Javascript MVC module design pattern.
 <li>Add, update and delete items</li>
 <li>Data is stored in an array of objects. This data structure is saved to local storage and retrieved upon page load</li>
 <li>Form validation restricts input to letters, dashes and spaces</li>
-<li>Special German letters ß, ü, ä, ö can be used in German words</li>
+<li>Special letters ß, ü, ä, ö can be used in German words</li>
 </ul>
