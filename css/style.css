@@ -1,0 +1,59 @@
+.form__row {
+  margin-bottom: 50px;
+}
+
+.eng-text {
+  font-size: 18px;
+}
+
+.ger-text {
+  font-size: 18px;
+}
+
+
+
+.err__msg__div {
+  text-align: left;
+  margin-top: 5px;
+  color: orange;
+}
+
+
+.border__red {
+  border-color: red;
+}
+
+
+
+i {
+  color: dodgerblue;
+  font-size: 15px;
+}
+
+
+
+.item {
+  font-size: 18px;
+}
+
+
+.delete__div, .update__div {
+  display: none;
+  margin-right: 10px;
+}
+
+.item:hover .delete__div, .item:hover .update__div {
+  display: block;
+}
+
+
+.hide {
+  display: none;
+}
+
+
+.footer {
+  margin-bottom: 50px;
+}
+
+
