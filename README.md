@@ -6,7 +6,7 @@ Built with Javascript and Material Design Bootstrap.
 
 Code written using Javascript MVC module design pattern.
 
-<h5>Features</h5>
+<h4>Features</h4>
 
 <ul>
 <li>Add German vocabulary with English translation as well as option to add German plural</li>
