@@ -1,5 +1,4 @@
-# german-vocabulary-list-app
-
+# german-vocabulary-list-keeper
 Simple one page app that allows you to make a vocabulary list of German words and their plurals along with English translation.
 
 Built with Javascript and Material Design Bootstrap.
