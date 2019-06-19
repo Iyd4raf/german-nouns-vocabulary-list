@@ -1,5 +1,5 @@
 # german-vocabulary-list-keeper
-Simple one page app that allows you to make a vocabulary list of German words and their plurals along with English translation.
+Single page application for managing foreign language vocabulary lists alongside their plurals. In this implementation, erman was chosen
 
 Built with Javascript and Material Design Bootstrap.
 
