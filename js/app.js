@@ -133,7 +133,8 @@ const vocabController = (() => {
         addWord,
         deleteWord,
         updateWord,
-        seeData
+        seeData,
+        populateWordsObj
     };
   
 })();
