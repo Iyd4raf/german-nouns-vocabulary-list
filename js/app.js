@@ -7,7 +7,7 @@ const vocabController = (() => {
   
     //-----------NOUN CLASS---------------
     
-	class Word {
+    class Word {
         constructor (id, engWord, gerWord, gerPlural) {
             this.id = id;
             this.engWord = engWord;
@@ -18,7 +18,7 @@ const vocabController = (() => {
   
     //----------DATA STRUCTURE----------
   
-	const _data = {   
+    const _data = {   
         words: []    //words stored as array of objects
     };
     
