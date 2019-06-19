@@ -1,5 +1,5 @@
 # german-vocabulary-list-keeper
-Single page application for managing foreign language vocabulary lists alongside their plurals. In this implementation, erman was chosen
+Single page application for managing foreign language vocabulary lists alongside their plurals. In this implementation, German was chosen
 
 Built with Javascript and Material Design Bootstrap.
 
