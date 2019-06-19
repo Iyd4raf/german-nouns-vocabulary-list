@@ -7,7 +7,7 @@ const vocabController = (() => {
   
     //-----------NOUN CLASS---------------
     
-    class Word {
+	class Word {
         constructor (id, engWord, gerWord, gerPlural) {
             this.id = id;
             this.engWord = engWord;
@@ -18,19 +18,10 @@ const vocabController = (() => {
   
     //----------DATA STRUCTURE----------
   
-    const _data = {   
+	const _data = {   
         words: []    //words stored as array of objects
     };
     
-    //----------POPULATE WORDS OBJECT WITH ITEMS SO THAT THERE IS SOME DATA TO DISPLAY----------
-	
-    const populateWordsObj = () => {
-        addWord("stream", "bach", "bache");
-        addWord("garden", "garten", "");
-        addWord("car", "wagen", "");
-        addWord("bottle", "flasche", "flaschen");
-        addWord("blue", "blau", "");
-    };
     
     //----------STORE DATA STRUCTURE IN LOCAL STORAGE----------
     
@@ -133,8 +124,7 @@ const vocabController = (() => {
         addWord,
         deleteWord,
         updateWord,
-        seeData,
-        populateWordsObj
+        seeData
     };
   
 })();
@@ -661,7 +651,6 @@ var controller = ((vocabCtrl, UICtrl) => {
   
   const init = function() {
       console.log('Application has started.');
-      vocabCtrl.populateWordsObj();
       _setupEventListeners();
   };
   
