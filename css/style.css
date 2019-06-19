@@ -56,4 +56,14 @@ i {
   margin-bottom: 50px;
 }
 
+.vocab-link-header {
+  margin-bottom: 40px;
+}
 
+.vocab-link {
+  color: white;
+}
+
+.vocab-link:hover {
+  font-weight: bold;
+}
