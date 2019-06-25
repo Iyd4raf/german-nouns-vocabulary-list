@@ -1,9 +1,9 @@
 # german-vocabulary-list-keeper
 Single page application for managing foreign language vocabulary lists alongside their plurals. In this implementation, German was chosen.
 
-Built with Javascript and Material Design Bootstrap.
+Built with JavaScript and Material Design Bootstrap.
 
-Code written using Javascript MVC module design pattern.
+Code written using JavaScript MVC module design pattern.
 
 <h4>Features</h4>
 
