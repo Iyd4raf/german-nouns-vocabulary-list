@@ -168,7 +168,6 @@ var UIController = (() => {
   const getDOMStrings = () => ({..._DOMStrings});  
   //use spread operator to return copy of DOMStrings object. Otherwise DOMStrings obj can be manipulated outside of this module because object passed by reference.
 
-
   
   const getInput = () => {
       return {
@@ -265,7 +264,7 @@ var UIController = (() => {
           gerTextEl.textContent = word.gerWord;
           pluTextEl.textContent = word.gerPlural;
 
-          if (word.gerPlural) {         //if there is an german plural
+          if (word.gerPlural) {         //if there is a german plural
               pluralSplitterEl.innerHTML = pluralSplitter;           //add plural splitter
           } else {
               pluralSplitterEl.innerHTML = `<!--pluralSplitter-->`;   //else do not add plural splitter
@@ -420,7 +419,7 @@ var UIController = (() => {
   const resizeThrottle = () => {
       // On resize, run the function and reset the timeout
       clearTimeout(_resizeTimer);
-      _resizeTimer = setTimeout(_loadHeadings, 100);
+      _resizeTimer = setTimeout(_loadHeadings, 100);  //0.1 second
   };   
   
   
@@ -589,7 +588,7 @@ var controller = ((vocabCtrl, UICtrl) => {
   
   //----------DETERMINE IF DELETE ICON OR UPDATE ICON CLICKED & THUS CALL CTRL DELETE ITEM FUNCTION OR LOAD VALUES IN FORM FOR UPDATING----------
   
-  //This function determines which icon was clicked & therefore whether to delete or update the item. It is needed because we cannot attach event listeners to the icons directly as they are not in the dom when page loads which means we have to use event delegation.
+  //This function determines which icon was clicked & therefore whether to delete or update the item. It is needed because we cannot attach event listeners to the icons directly as they are not in the dom when the page loads which means we have to use event delegation.
   const _deleteItemOrLoadValuesInForm = event => {
       let wordID, iconClicked;
     
